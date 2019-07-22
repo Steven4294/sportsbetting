@@ -70,6 +70,12 @@
 ====================================================================
 
  ***/
+ #about p {
+   margin-left: 65px;
+   margin-right: 65px;
+   margin-bottom: 10px;
+
+ }
 #loader-wrapper {
   position: fixed;
   top: 0;
