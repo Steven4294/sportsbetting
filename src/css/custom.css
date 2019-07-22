@@ -1,0 +1,146 @@
+
+
+.card .biography {
+	opacity: 0;
+	transition: .7s;
+	margin-left: 16px;
+	margin-right: 16px;
+	font-size: 15px;
+	color: #888;
+	margin-top: 14px;
+}
+
+
+
+.card:hover .biography {
+	opacity: 1;
+}
+
+.block {
+   /* border: solid black 1px; */
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin: 0px 0px;
+   padding: 10px 20px;
+
+   /* height: 190px; */
+ }
+
+.card-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+}
+
+.card {
+  width: 369px;
+  height: 167px;
+  transition: height .5s;
+	padding-bottom: 15px;
+	/* border: 1px solid rgba(0,0,0,.2); */
+	border: none;
+	-webkit-box-shadow: 3px 6px 44px 1px rgba(0,0,0,0.14);
+	-moz-box-shadow: 3px 6px 44px 1px rgba(0,0,0,0.14);
+	box-shadow: 3px 6px 44px 1px rgba(0,0,0,0.14);
+}
+
+.card:hover {
+  height: 315px;
+}
+
+ .testimonial-section .name {
+ }
+ .testimonial-section .text {
+   align-items: center;
+
+ }
+
+ .role {
+	 color: #01daba;
+ }
+ .name {
+   /* margin-top: 34px; */
+   color: black;
+
+   font-weight: 500;
+   font-size: 18px;
+ }
+
+ .title {
+   font-weight: 400;
+   margin-top: 6px;
+   font-size: 15px;
+  }
+
+ .card .description {
+   font-weight: 400;
+   font-size: 16px;
+  }
+
+.testimonial-section img{
+  /* position: absolute; */
+  /* right: 20px; */
+}
+
+
+#theme-banner{
+	/* position: relative;
+	z-index: 4; */
+	/* color: green; */
+	-webkit-border-bottom-right-radius: 50% 28px;
+	-webkit-border-bottom-left-radius: 50% 28px;
+	box-shadow: 0px 14px 39px -5px rgba(0,0,0,0.06);
+}
+
+#bottom-section{
+	/* position: relative;
+	color: green;
+	height: 30px;
+	-webkit-border-bottom-right-radius: 50% 100%;
+	-webkit-border-bottom-left-radius: 50% 100%;
+	box-shadow: 0px 14px 39px -5px rgba(0,0,0,0.75);
+	margin-top: 110px;
+	z-index: 3;
+	border: grey solid 1px; */
+}
+
+#theme-banner {
+	background-image: url("./../images/bg-v6.png")
+}
+
+.house {
+	position: absolute;
+	height: 300px;
+	opacity: .48;
+	top: 190px;
+	left: 40px;
+}
+
+@media (max-width: 991px) {
+  .house {
+		position: absolute;
+		height: 280px;
+		top: 100px;
+		left: 40px;
+	}
+
+	.logo.header {
+		display: none;
+	}
+}
+
+@media (max-width: 575px) {
+	.house {
+		display: none;
+	}
+
+	#theme-banner {
+		background-image: url("./../images/bg-mobile.png")
+	}
+}
+
+h1.title-header {
+	max-width: 500px;
+}
